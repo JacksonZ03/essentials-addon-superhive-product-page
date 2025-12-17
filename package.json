@@ -2,6 +2,7 @@
   "name": "essentials-addon-superhive-site",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://jacksonz03.github.io/essentials-addon-superhive-product-page/",
   "type": "module",
   "scripts": {
     "dev": "vite",
