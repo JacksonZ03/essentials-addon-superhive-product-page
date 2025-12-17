@@ -15,7 +15,6 @@ const product = {
     headline: "Essential features missing in vanilla Blender.",
     subhead:
         "A lightweight add-on that removes friction from everyday Blender work—snapping, navigation, viewport control, and more.",
-    primaryCta: { label: "Documentation", href: "https://superhivemarket.com/products/essentials/docs" },
 };
 
 const features: Feature[] = [
@@ -222,13 +221,6 @@ export default function ProductPage() {
                                 FAQ
                             </a>
                         </nav>
-
-                        <a
-                            href={product.primaryCta.href}
-                            className="inline-flex items-center justify-center rounded-xl bg-white px-4 py-2 text-sm font-semibold text-slate-950 shadow hover:opacity-90"
-                        >
-                            {product.primaryCta.label}
-                        </a>
                     </div>
                 </Container>
             </header> */}
@@ -250,14 +242,7 @@ export default function ProductPage() {
                             </h1>
                             <p className="mt-5 text-pretty text-lg leading-relaxed text-slate-300">{product.subhead}</p>
 
-                            <div className="mt-8 flex flex-wrap gap-3">
-                                <a
-                                    href={product.primaryCta.href}
-                                    className="inline-flex items-center justify-center rounded-xl bg-white px-5 py-3 text-sm font-semibold text-slate-950 shadow hover:opacity-90"
-                                >
-                                    {product.primaryCta.label}
-                                </a>
-                            </div>
+                            <div className="mt-8 flex flex-wrap gap-3"></div>
                         </div>
                     </div>
                 </Container>
@@ -345,12 +330,6 @@ export default function ProductPage() {
                         <div>
                             <div className="text-sm font-semibold text-white">More features coming soon!</div>
                         </div>
-                        <a
-                            href={product.primaryCta.href}
-                            className="inline-flex items-center justify-center rounded-xl bg-white px-4 py-2 text-sm font-semibold text-slate-950 shadow hover:opacity-90"
-                        >
-                            {product.primaryCta.label}
-                        </a>
                     </div>
                 </Container>
             </footer>
